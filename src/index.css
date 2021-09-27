@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(65, 65, 65);
+  height: 1000px;
+  width: 800px;
+  margin: auto;
+  
+}
+
+.modal {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: rgb(70, 70, 70);
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+  color: white;
+}
+
+.modal2 {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: rgb(70, 70, 70);
+  padding: 1rem;
+  text-align: center;
+  width: 30rem;
+  z-index: 10;
+  position: fixed;
+  top: 20vh;
+  left: calc(50% - 15rem);
+  color: white;
+}
+
+.backdrop {
+  position: fixed;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.inputuri {
+  color: rgb(255, 255, 255);
+ 
+  font-size: 30px;
+  border-color: rgb(71, 255, 71);
+  border-radius: 6px;
+  border-width: 1px;
+}
+
+.inputuri:focus{
+  border-color: rgb(71, 255, 71);
+  border-width: 1px;
+  border-radius: 6px;
+  outline: rgb(71, 255, 71);
+  caret-color: rgb(27, 27, 27);
+}

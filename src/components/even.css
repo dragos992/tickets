@@ -1,0 +1,48 @@
+.eventcard {
+  font-family: "open sans";
+  background-color: rgb(65, 65, 65);
+  border-color: black;
+  border-color: blueviolet;
+  width: 760px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.8);
+
+}
+
+.event{
+    height: 360px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.vreau{
+    margin-left: 300px;
+    height: 50px;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(65, 65, 65);
+    color: rgb(224, 224, 224);
+    font-family: "open sans";
+      border-radius: 10px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+
+}
+
+
+.vreau2{
+ 
+    height: 50px;
+    width: 150px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: rgb(65, 65, 65);
+    color: rgb(224, 224, 224);
+    font-family: "open sans";
+      border-radius: 10px;
+  box-shadow: 1px 2px 20px rgba(0, 0, 0, 0.8);
+  font-size: 18px;
+
+}
